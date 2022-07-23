@@ -19,7 +19,7 @@ return new class extends Migration
             $table->float('sell_price',12,2);
             $table->integer('stock');
             $table->string('desctiption');
-            $table->string('image');
+            $table->string('image')->nullable();
             $table->id('Sku')->unique();
             $table->unsignedBigInteger('category_id');
             $table->foreign('category_id')->references('id')->on('categories');
