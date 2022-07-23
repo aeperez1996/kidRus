@@ -23,9 +23,8 @@ return new class extends Migration
             $table->id('Sku')->unique();
             $table->unsignedBigInteger('category_id');
             $table->foreign('category_id')->references('id')->on('categories');
-             $table->timestamps();
-             $table->string('tags');
-             $table->foreign('tags')->references('name')->on('tags');
+            $table->timestamps();
+           
              
         });
     }
