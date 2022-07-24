@@ -24,7 +24,7 @@ class TagssController extends Controller
     public function Store(StoreTagsRequest $request)
     {
        Tags::create($request->all()); 
-       return redirect()->route('Tagss.index');
+       return redirect()->route('Tags.index');
     }
 
    
