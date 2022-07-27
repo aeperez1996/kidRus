@@ -16,10 +16,10 @@ NOTA: Lea la sección EJECUTAR para iniciar el servicio correctamente.
 ### 1. Clonar repositorio
 
 
-$ git clone https://github.com/aeperez1996/kidRus
-$ cd kidRus
-$ composer install
-$ composer global require laravel/installer          
+-$ git clone https://github.com/aeperez1996/kidRus
+-$ cd kidRus
+-$ composer install
+-$ composer global require laravel/installer          
 
 
 ### 2. Setup xampp mysql
@@ -29,12 +29,12 @@ cree la base de datos articulos_infantiles en mysql
 
 ### 3. Cree las migraciones
 Ejecute:
-php artisan migrate
-php artisan db:seed
+-php artisan migrate
+-php artisan db:seed
 
 ### 4. Run commands
 La solución contiene u commando. 
-php artisan serve
+-php artisan serve
 
 - Ejecuta y levantar el servico por default en el puerto 8000.
 
