@@ -1,13 +1,14 @@
 
 # KidRus
 
+
 ## Tabla de contenido
 
 - [Introducción](#introducción)
 - [Ejecutar](#ejecutar)
 - [Modelos de la Base de Datos](#bd)
 ## Introducción
-Una API Rest que provee las funcionalidades básicas de un ecommerce usando Laravel y php.
+Una API Rest que provee las funcionalidades básicas de un ecommerce usando Laravel y PHP 8.0.3 
 
 NOTA: Lea la sección EJECUTAR para iniciar el servicio correctamente.
 ## Ejecutar
@@ -28,9 +29,11 @@ Ejecute:
 php artisan migrate
 php artisan db:seed
 ### 4. Run commands
-La solución contiene dos commands. Puede ejecutar uno u otro según prefiera.
+
+php artisan serve
 
 
-- Ejecuta y levantar el servico por default en el puerto 80.
+- Ejecuta y levantar el servico por default en el puerto 8000.
 ```
 Todos los modelos se pueden encontra en la carpeta /app/models
+
