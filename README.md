@@ -16,10 +16,13 @@ NOTA: Lea la sección EJECUTAR para iniciar el servicio correctamente.
 ### 1. Clonar repositorio
 
 
--$ git clone https://github.com/aeperez1996/kidRus
--$ cd kidRus
--$ composer install
--$ composer global require laravel/installer          
+$ git clone https://github.com/aeperez1996/kidRus
+
+$ cd kidRus
+
+$ composer install
+
+$ composer global require laravel/installer          
 
 
 ### 2. Setup xampp mysql
