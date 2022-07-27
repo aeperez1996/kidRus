@@ -5,8 +5,6 @@
 
 - [Introducción](#introducción)
 - [Ejecutar](#ejecutar)
-- [Modelos de la Base de Datos](#bd)
-
 
 ## Introducción
 
@@ -39,5 +37,5 @@ La solución contiene u commando.
 php artisan serve
 
 - Ejecuta y levantar el servico por default en el puerto 8000.
-#bd
+
 Todos los modelos se pueden encontra en la carpeta /app/models
