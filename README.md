@@ -6,7 +6,6 @@
 
 - [Introducción](#introducción)
 - [Ejecutar](#ejecutar)
-- [Modelos de la Base de Datos](#bd)
 ## Introducción
 Una API Rest que provee las funcionalidades básicas de un ecommerce usando Laravel y PHP 8.0.3 
 
