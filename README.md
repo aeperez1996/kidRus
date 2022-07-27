@@ -1,5 +1,5 @@
 
-# KIdRUs
+# KidRus
 
 ## Tabla de contenido
 
